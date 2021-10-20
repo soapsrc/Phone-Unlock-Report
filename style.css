@@ -5,10 +5,10 @@
     --black-c: #000;
     --buttons-background-c: rgba(255, 255, 255, 0.219);
     --buttons-active-background-c: rgba(135, 207, 235, 0.493);
-    --main-c: #E5D9FC;
-    --main2-c: #FDD8EA;
-    --accent-c: #9968f3;
-    --accent2-c: #bbf1f9;
+    --main-c: #C3D8FE;
+    --main2-c: #FEF1D7;
+    --accent-c: #123478;
+    --accent2-c: #FEAFF2;
 }
 
 ::-webkit-scrollbar {
@@ -206,7 +206,7 @@ a {
 b,
 strong {
     font-weight: 600;
-    color: #f99cc9;
+    color: var(--accent2-c);
 }
 
 i {}

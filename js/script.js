@@ -95,11 +95,11 @@ function button1() {
 }
 
 function button2() {
-    window.open('assets/files/variations.pdf', '_blank')
+    window.open('https://cloud.protopie.io/p/edec27bf7e', '_blank')
 }
 
 function button3() {
-    window.open('https://github.com/soapsrc/Project-Me-Button', '_blank')
+    window.open('https://github.com/mightymosdan/ravioli', '_blank')
 }
 
 // Images Area Images

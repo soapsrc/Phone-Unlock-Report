@@ -438,10 +438,10 @@ button {
 
 .fill,
 .fill2 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     letter-spacing: 1px;
-    padding: 13px 50px 13px;
+    padding: 13px 50px 53px;
     outline: 0;
     border: 1px solid black;
     cursor: pointer;
@@ -454,8 +454,8 @@ button {
     padding-top: 10%;
     padding-bottom: 5%;
     text-align: center;
-    content: "View PDF";
-    background-color: var(--accent2-c);
+    content: "Part B ProtoPie link";
+    background-color: var(--main2-c);
     width: 100%;
     z-index: 0;
     position: absolute;
@@ -466,7 +466,7 @@ button {
 }
 
 .fill2::after {
-    content: "Github Repository";
+    content: "Part A Github Repository";
 }
 
 .fill:hover::after,

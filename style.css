@@ -228,6 +228,14 @@ iframe {
     overflow: hidden;
 }
 
+#scrollToTop:link,
+#scrollToTop:visited {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 .slider {
     height: 600px;
     width: 800px;

@@ -69,6 +69,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     height: 100%;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png");
 }
 
 .fa-angle-down {
@@ -389,7 +390,7 @@ nav a:hover p {
 
 .wrapper {
     background-color: white;
-    background-image: url('assets/images/bg.png');
+    background-image: url('assets/bg.png');
     background-repeat: repeat;
     padding: 10px;
     padding-bottom: 35px;

@@ -91,7 +91,7 @@ $('a[href*="#"]')
     });
 
 function button1() {
-    window.open('assets/files/initialsketches.pdf', '_blank')
+    window.open('https://www.figma.com/file/17X9niDSoSJPE4SCrRaKBX/CPSC-581-Project-2?node-id=0%3A1', '_blank')
 }
 
 function button2() {

@@ -437,7 +437,8 @@ button {
 /* Fill button styling */
 
 .fill,
-.fill2 {
+.fill2,
+.fill3 {
     font-size: 15px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -450,7 +451,8 @@ button {
 }
 
 .fill::after,
-.fill2::after {
+.fill2::after,
+.fill3::after {
     padding-top: 10%;
     padding-bottom: 5%;
     text-align: center;
@@ -469,8 +471,13 @@ button {
     content: "Part A Github Repository";
 }
 
+.fill3::after {
+    content: "Part B Figma Prototype";
+}
+
 .fill:hover::after,
-.fill2:hover::after {
+.fill2:hover::after,
+.fill3:hover::after {
     top: 0px;
     left: 0px;
 }
